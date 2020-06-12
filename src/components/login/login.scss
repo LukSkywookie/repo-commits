@@ -1,0 +1,37 @@
+.login {
+    display: flex;
+    height: calc(100vh - 61px);
+    justify-content: center;
+    align-items: center;
+
+    section {
+        padding: 40px;
+        background: #444;
+        border-radius: 20px;
+        color: #fff;
+
+        div {
+            display: grid;
+            margin: 0 auto 10px;
+            grid-template-columns: repeat(2, 1fr);
+
+            label {
+                margin-right: 20px;
+                font-size: 1rem;
+                vertical-align: middle;
+            }
+
+            input {
+                padding: 5px 10px;
+            }
+        }
+
+        button {
+            width: 100%;
+            padding: 10px 20px;
+            border: 0 none;
+            font-size: 1rem;
+            background: #fff;
+        }
+    }
+}
