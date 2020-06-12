@@ -12,3 +12,7 @@ The page will reload if you make edits.<br />
 ### `npm run build`
 
 Dla poprawnego działania aplikacji potrzebny jest serwer dostępny w repo >> https://github.com/LukSkywookie/auth-api
+
+### Script
+
+node server.js
